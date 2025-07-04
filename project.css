@@ -17,9 +17,9 @@ body {
   color: var(--text);
 }
 .wrapper {
-  max-width: 1200px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 0 1em;
 }
 .site-logo {
   height: 100px;
@@ -116,4 +116,72 @@ p {
   margin-top: 4rem;
   font-size: 0.9rem;
   border-top: 3px solid var(--accent);
+}
+.scale-image {
+  width: 80%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 8px;
+}
+.cretaceous {
+  background-color: #4b2e1e;
+  color: #fff8e1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.dino-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.dino-list li {
+  margin-bottom: 0.5em;
+  padding-left: 1.2em;
+  position: relative;
+}
+
+.dino-list li::before {
+  content: "🦖";
+  position: absolute;
+  left: 0;
+}
+
+.timeline {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.timeline-bar {
+  background: linear-gradient(to right, #ffb347, #ffcc33);
+  height: 12px;
+  border-radius: 6px;
+  position: relative;
+  margin: 0.5em auto;
+  width: 80%;
+}
+
+.marker {
+  position: absolute;
+  top: -1.5em;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.marker.start {
+  left: 0;
+}
+
+.marker.end {
+  right: 0;
+}
+
+.timeline-label {
+  font-style: italic;
+  margin-top: 0.5em;
+}
+  body {
+  cursor: url('dinocursor.png') 4 4, auto;
 }
