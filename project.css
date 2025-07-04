@@ -118,7 +118,7 @@ p {
   border-top: 3px solid var(--accent);
 }
 .scale-image {
-  width: 80%;
+  width: 60%;
   max-width: 100%;
   height: auto;
   display: block;
@@ -142,27 +142,6 @@ p {
   padding-left: 1.2em;
   position: relative;
 }
-
-.dino-list li::before {
-  content: "🦖";
-  position: absolute;
-  left: 0;
-}
-
-.timeline {
-  margin: 1.5em 0;
-  text-align: center;
-}
-
-.timeline-bar {
-  background: linear-gradient(to right, #ffb347, #ffcc33);
-  height: 12px;
-  border-radius: 6px;
-  position: relative;
-  margin: 0.5em auto;
-  width: 80%;
-}
-
 .marker {
   position: absolute;
   top: -1.5em;
